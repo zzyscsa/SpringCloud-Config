@@ -6,9 +6,16 @@ spring:
       server:
         git:
           uri: https://gitee.com/zzyscsa/config-repo.git
-          username: ********
-          password: ********
+          username: 583125807@qq.com
+          password: zzy970108
+  rabbitmq:
+    host: 192.168.74.159
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka:8761/eureka/
+  instance:
+    prefer-ip-address: true # 项目部署时候容器之间使用ip通信
