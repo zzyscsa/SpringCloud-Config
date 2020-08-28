@@ -6,8 +6,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/zzyscsa/config-repo.git
-          username: 583125807@qq.com
-          password: zzy970108
+          username: ********
+          password: ********
   rabbitmq:
     host: 192.168.74.159
     port: 5672
